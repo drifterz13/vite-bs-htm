@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && cp src/index.d.ts dist/ps-form.d.ts",
     "preview": "vite preview"
   },
   "main": "dist/ps-form.js",
   "umd:main": "dist/ps-form.umd.cjs",
+  "types": "dist/ps-form.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/ps-form.d.ts",
       "umd": "./dist/ps-form.umd.cjs",
       "import": "./dist/ps-form.js",
       "require": "./dist/ps-form.js"
