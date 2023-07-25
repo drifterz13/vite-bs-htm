@@ -1,4 +1,4 @@
-# bootstrap-vite
+# Bootstrap + Vite + HTM
 
 ## About
 POC for setting up standalone package with following tools
