@@ -19,6 +19,10 @@
       "require": "./dist/ps-form.js"
     }
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@types/node": "^20.4.4",

@@ -6,4 +6,4 @@ POC for setting up standalone package with following tools
 2. [Bootstrap](https://getbootstrap.com/) - styling
 3. [HTM](https://github.com/developit/htm) - JSX template that works in all modern browser
 
-> It's tiny (~8kb gzip)
+> It's tiny (~10kb gzip)
